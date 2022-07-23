@@ -1,4 +1,4 @@
-import { JsonApiMeta, JsonApiObject } from "@/JsonApiTypes";
+import { JsonApiMeta, JsonApiObject } from "./JsonApiTypes";
 
 export interface LinkObject {
   href: string;

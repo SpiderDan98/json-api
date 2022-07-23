@@ -1,5 +1,5 @@
-import JsonApiLink from "@/JsonApiLink";
-import { JsonApiMeta, JsonApiObject, NormalData } from "@/JsonApiTypes";
+import JsonApiLink from "./JsonApiLink";
+import { JsonApiMeta, JsonApiObject, NormalData } from "./JsonApiTypes";
 
 export interface JsonApiErrorSource {
   pointer?: string;

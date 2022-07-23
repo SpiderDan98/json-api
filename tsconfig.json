@@ -6,6 +6,7 @@
     "moduleResolution": "Node",
     "strict": true,
     "sourceMap": true,
+    "declaration": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
     "noUnusedLocals": true,
@@ -13,11 +14,7 @@
     "noImplicitReturns": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "downlevelIteration": true,
-    "baseUrl": "./src",
-    "paths": {
-      "@/*": ["./*"]
-    }
+    "downlevelIteration": true
   },
   "include": ["src/*"]
 }

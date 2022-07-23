@@ -1,15 +1,15 @@
-import JsonApiError, { JsonApiErrorJson } from "@/JsonApiError";
-import JsonApiLink, { Link } from "@/JsonApiLink";
-import JsonApiRelationship from "@/JsonApiRelationship";
-import JsonApiResource, { JsonApiResourceJson } from "@/JsonApiResource";
-import { JsonApiResourceIdentifier } from "@/JsonApiResourceIdentifier";
+import JsonApiError, { JsonApiErrorJson } from "./JsonApiError";
+import JsonApiLink, { Link } from "./JsonApiLink";
+import JsonApiRelationship from "./JsonApiRelationship";
+import JsonApiResource, { JsonApiResourceJson } from "./JsonApiResource";
+import { JsonApiResourceIdentifier } from "./JsonApiResourceIdentifier";
 import {
   arrayHelper,
   JsonApiAttribute,
   JsonApiJsonApi,
   JsonApiMeta,
   NormalData,
-} from "@/JsonApiTypes";
+} from "./JsonApiTypes";
 
 export interface JsonApiJson {
   data?: JsonApiResourceJson | JsonApiResourceJson[];

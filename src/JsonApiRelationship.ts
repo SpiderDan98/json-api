@@ -1,14 +1,14 @@
-import JsonApiLink, { JsonApiRelationshipLink, Link } from "@/JsonApiLink";
+import JsonApiLink, { JsonApiRelationshipLink, Link } from "./JsonApiLink";
 import {
   JsonApiResourceIdentifier,
   JsonApiResourceIdentifierJson,
-} from "@/JsonApiResourceIdentifier";
+} from "./JsonApiResourceIdentifier";
 import {
   arrayHelper,
   JsonApiMeta,
   JsonApiObject,
   JsonApiResourceLinkage,
-} from "@/JsonApiTypes";
+} from "./JsonApiTypes";
 
 export interface JsonApiRelationshipJson {
   links?: Link;

@@ -1,4 +1,4 @@
-import { JsonApiResourceIdentifier } from "@/JsonApiResourceIdentifier";
+import { JsonApiResourceIdentifier } from "./JsonApiResourceIdentifier";
 
 export interface JsonApiObject {
   toJsonApiJson(): Record<string, any>;

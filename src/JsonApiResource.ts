@@ -1,12 +1,12 @@
-import JsonApiLink, { Link } from "@/JsonApiLink";
+import JsonApiLink, { Link } from "./JsonApiLink";
 import JsonApiRelationship, {
   JsonApiRelationshipJson,
-} from "@/JsonApiRelationship";
+} from "./JsonApiRelationship";
 import {
   JsonApiResourceIdentifier,
   JsonApiResourceIdentifierJson,
-} from "@/JsonApiResourceIdentifier";
-import { arrayHelper, JsonApiAttribute, NormalData } from "@/JsonApiTypes";
+} from "./JsonApiResourceIdentifier";
+import { arrayHelper, JsonApiAttribute, NormalData } from "./JsonApiTypes";
 
 export interface JsonApiResourceJson extends JsonApiResourceIdentifierJson {
   attributes?: JsonApiAttribute;

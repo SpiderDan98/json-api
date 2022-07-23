@@ -1,8 +1,9 @@
 {
   "name": "@spiderdan98/json-api",
-  "version": "1.0.0-beta.0",
+  "version": "1.0.0-beta.1",
   "description": "JSON API response and request normalizer",
   "main": "dist/index.js",
+  "types": "dist/JsonApi.d.ts",
   "scripts": {
     "prepare": "yarn mix --production",
     "build": "yarn mix",

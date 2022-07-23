@@ -1,4 +1,4 @@
-import JsonApi from "@/JsonApi";
+import JsonApi from "./JsonApi";
 
 const start = new Date();
 
